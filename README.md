@@ -6,10 +6,14 @@ The device demonstrates the capability and research regarding the covert impleme
 
 A equirement was to distinguish what was 'expensive' in which a device for less than £35.00 was a goal. Additionally, the device would be required to be able to run the overall architecture speciﬁc requirements had to be met. The following requirements were necessary to be able to allow for the end implementation: 
 
-Android - Openness for underlying architectures. 
+Android - Openness for underlying architectures
+
 Cheap - Ability to purchase a device for plug and play features 
+
 Rootable - The underlying concepts require a Rootable architecture
+
 Deniable - The device must provide a level of deniability to allow the user not to be tied to an engagement
+
 Ease of Use - The ability to change, update and maintain quickly
 
 # Code
