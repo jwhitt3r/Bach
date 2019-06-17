@@ -19,6 +19,7 @@ Ease of Use - The ability to change, update and maintain quickly
 # Code
 All the code is provided above, just extract the 7zip archives into the source directory.
 Scripts for the phones overall device can be found under:
+
 ```bash
 \tce\cpio\opt
 \tce\cpio\opt\core
@@ -29,9 +30,12 @@ The talk can be found at: https://youtu.be/GQcrkLhhdfo
 
 The academic paper can be found at:
 
+In addition, videos and the presentation slides can be found in the documents folder along with a 7zip of the videos used in the demonstration.
+
 Twitter for the authors
 
 Exit      |   MuNk
+
 @Jack_WJ  |   @MuNk__
 
 # Thank You
