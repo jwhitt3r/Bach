@@ -1,0 +1,66 @@
+we need to set a range and timer, and detect if movement moves into thoses in order. like screen unlock
+
+
+on touch start 4 sec timer or 10sec timer windows.
+	if x > 100 < 150 and y > 50 < 20 pass1  = true
+	..
+	..
+	.
+	else reset all passes
+
+
+
+BRIGHT=$(cat /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness)
+echo 0 > /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
+sh-a am start -a android.media.action.STILL_IMAGE_CAMERA"
+sleep 2
+sh-a input keyevent 27
+kill -9 `ps aux | grep snap | awk '{split($0,a," "); print a[1]}'| head -n 1`
+IMG=$(sh-a ls -s /sdcard/DCIM/camera|tail -n 1|awk '{split($0,a," "); print a[2]}')
+echo moving $IMG to chroot
+sh-a mv /sdcard/DCIM/camera/$IMG /mnt/tc/opt/core/root/.
+echo $BRIGHT > /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
+
+
+
+ls-a
+
+#!/bin/sh
+echo "ls $1 $2 > /mnt/tc/opt/core/root/.lsa" | nc localhost 222; cat /opt/core/root/.lsa
+
+sh-a
+
+#!/bin/sh
+echo "$@ > /mnt/tc/opt/core/root/.sha" | nc localhost 222; cat /opt/core/root/.sha
+
+
+
+
+---- PRE MAY
+
+cd /sys/class/android_usb/android0
+
+
+echo 0 > enable; echo rndis,mtp > functions; echo 1 > enable;
+
+
+
+
+
+
+dd if=/dev/block/mmcblk0 bs=1 skip=[ p21-offset + (max-size-p21 - 100mb)] | gz -d -c | sh -
+
+
+
+
+
+
+#!/usr/bin/python
+
+with open("/sys/class/leds/lcd-backlight/brightness", "rw") as f:
+	while i in range(240):
+		f.write(i)
+
+
+
+gst-launch-1.0 v4l2src device=/dev/kd_camera_hw "image/jpeg,width=640,height=480,framerate=5/1" videorate "image/jpeg,framerate=1/6" multifilesink location="./images/image-%06d.jpg"
