@@ -25,7 +25,7 @@ Scripts for the phones overall device can be found under:
 ```
 
 # Further Information
-The talk can be found at: https://www.youtube.com/watch?v=GQcrkLhhdfo&t=1s
+The talk can be found at: https://youtu.be/GQcrkLhhdfo
 
 The academic paper can be found at:
 
