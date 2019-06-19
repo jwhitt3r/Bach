@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="125" height="186" src="https://github.com/ExitSec/Bach/blob/master/documents/logo/bach.png">
+  <img width="50%" height="50%" src="https://github.com/ExitSec/Bach/blob/master/documents/logo/bach.png">
 </p>
 
 # Bach - The Little Phone That Could Ch-Ch-Chroot
