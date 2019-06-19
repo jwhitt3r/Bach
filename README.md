@@ -3,9 +3,9 @@
 This project was conducted by Myself (@Jack_WJ) and MuNk (@MuNK__) it was presented at BSides London 2019.
 
 # Description
-The device demonstrates the capability and research regarding the covert implementation of a hidden operating system within a cheap android based phone to further understand how a phone could be weaponised for investigative journalism or red teaming.
+The device demonstrates the capability and research regarding the covert implementation of a hidden operating system within a cheap android-based phone to further understand how a phone could be weaponised for investigative journalism or red teaming.
 
-A equirement was to distinguish what was 'expensive' in which a device for less than £35.00 was a goal. Additionally, the device would be required to be able to run the overall architecture speciﬁc requirements had to be met. The following requirements were necessary to be able to allow for the end implementation: 
+A requirement was to distinguish what was 'expensive' in which a device for less than £35.00 was a goal. Additionally, the device would be required to be able to run the overall architecture speciﬁc requirements had to be met. The following requirements were necessary to be able to allow for the end implementation: 
 
 Android - Openness for underlying architectures
 
