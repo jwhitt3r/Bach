@@ -2,7 +2,9 @@
   <img width="50%" height="50%" src="https://github.com/ExitSec/Bach/blob/master/documents/logo/bach.png">
 </p>
 
-# Bach - The Little Phone That Could Ch-Ch-Chroot
+<p align="center">
+  The Little Phone That Could Ch-Ch-Chroot
+</p>
 This project was conducted by Myself (@Jack_WJ) and MuNk (@MuNK__) it was presented at BSides London 2019.
 
 # Description
