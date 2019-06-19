@@ -28,7 +28,7 @@ Scripts for the phones overall device can be found under:
 # Further Information
 The talk can be found at: https://youtu.be/GQcrkLhhdfo
 
-The academic paper can be found at:https://arxiv.org/abs/1906.07242
+The academic paper can be found at: https://arxiv.org/abs/1906.07242
 
 In addition, videos and the presentation slides can be found in the documents folder along with a 7zip of the videos used in the demonstration.
 
